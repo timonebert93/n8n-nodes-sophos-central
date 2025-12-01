@@ -1,0 +1,16 @@
+{
+"name": "n8n-nodes-sophos-central",
+"version": "0.1.0",
+"description": "n8n node for Sophos Central API",
+"main": "nodes/SophosCentral.node.ts",
+"scripts": {
+"build": "tsc",
+"lint": "eslint . --ext .ts"
+},
+"dependencies": {
+"axios": "^1.5.0"
+},
+"devDependencies": {
+"typescript": "^5.1.6"
+}
+}
